@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33017c94-1ba6-40de-8f54-bf9b34788ef3" name="Changes" comment="weee">
+    <list default="true" id="33017c94-1ba6-40de-8f54-bf9b34788ef3" name="Changes" comment="functions exerciseeee">
+      <change afterPath="$PROJECT_DIR$/return.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/return1.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FunctionsEX.js" beforeDir="false" afterPath="$PROJECT_DIR$/FunctionsEX.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +63,8 @@
       <option name="presentableId" value="Default" />
       <updated>1678826065975</updated>
       <workItem from="1678826067036" duration="2640000" />
-      <workItem from="1678912056121" duration="2746000" />
+      <workItem from="1678912056121" duration="3038000" />
+      <workItem from="1679083143971" duration="4725000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1678827576295</created>
@@ -78,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678828722533</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="functions exerciseeee">
+      <created>1678915087617</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678915087617</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,6 +107,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="weee" />
-    <option name="LAST_COMMIT_MESSAGE" value="weee" />
+    <MESSAGE value="functions exerciseeee" />
+    <option name="LAST_COMMIT_MESSAGE" value="functions exerciseeee" />
   </component>
 </project>
