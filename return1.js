@@ -23,20 +23,35 @@ const readline = require('readline-sync');
 // console.log(x);
 
 //4
-function charity(money1, money2, money3) {
-    let sum = money1 + money2 + money3;
-    if (sum > 2000) {
-        sum*=2;
-        return;
-    } else if (sum >= 1001) {
-        sum*=2;
-        return(sum;)
+// function charity(money1, money2, money3) {
+//     let sum = money1 + money2 +money3;
+//     if (sum > 2000) {
+//         sum*=2;
+//     } else if (sum > 1000) {
+//         sum*=2;
+//     }  else {
+//         sum+=100;
+//     }
+//     return(sum);
+// }
+//
+// let charityCollectionRevisited = charity(564,500,32);
+// console.log(charityCollectionRevisited);
+//5
+function dartGame() {
+    let player1 = Number.readline.question('Please enter Player 1 total points: ');
+    let player2 = Number.readline.question('Please enter Player 2 total points: ');
+    if (player1 > 540) {
+        console.log('Not possible.');
+    } else if (player2 > 540) {
+        console.log('Not possible.');
+    } else if (player1 > player2) {
+        console.log('Player 1 wins!');
+    } else if (player1 < player2) {
+        console.log('Player 2 wins!');
     } else {
-        sum+=100;
-        return(sum);
+        console.log('It\'s a tie!');
     }
 }
-
-charity(6,800,600)
-
-
+let execute = dartGame();
+console.log(execute);
