@@ -1,19 +1,74 @@
 //1
-function firstfunction(ararr){
-    console.log(ararr[0]);
+function printFirst(arr){
+    console.log(arr[0])
 }
-let mynum = [1,2,3,4];
-firstfunction(mynum);
+printFirst([3,12,7,14]);
+printFirst(['a','b','c']);
 //2
-console.log(mynum[3]);
+function printLast(arr){
+    let lastIndex = arr.length-1;
+    console.log(arr[lastIndex]);
+}
+printLast([3,12,7,14]);
+printLast(['a','b','c'])
 //3
-mynum[0] = [];
-console.log(mynum[0]);
-//4
-function reverseElement(arr) {
-    for (i = mynum.length-1; i >= 0; i--){
-        console.log(i);
+function upgradedPrintFirst(arr){
+    let arrayLength = arr.length;
+    if (arrayLength == 0){
+        console.log('empty array')
+    } else {
+        console.log(arr[0]);
     }
 }
-reverseElement();
+upgradedPrintFirst([3,12,7,14]);
+upgradedPrintFirst(['a','b','c']);
+upgradedPrintFirst([]);
+function upgradedPrintLast(arr){
+    let arrayLength = arr.length;
+    if (arrayLength == 0){
+        console.log('empty array')
+    } else {
+        let lastIndex = arr.length-1
+        console.log(arr[lastIndex]);
+    }
+}
+upgradedPrintLast([3,12,7,14])
+upgradedPrintLast(['a','b','c'])
+upgradedPrintLast([])
+
+//4
+function reverseArray(arr){
+    let lastIndex = arr.length-1;
+    for (let i=lastIndex; i>=0; i--){
+        console.log(arr[i]);
+    }
+}
 //5
+
+
+//6
+function everySecond(arr){
+    for (let i = 2; i < arr.length; i=i+2){
+        console.log(arr[i]);
+    }
+}
+//7
+function biggerThanFour(arr){
+    for (let i=0; i< arr.length; i++){
+        let item = arr[i];
+        if (item > 4){
+            console.log(item);
+        }
+    }
+}
+biggerThanFour([-10, -5, 0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60]);
+//8
+function biggerThanNum(arr, num){
+    for (let i = 0; i < arr.length; i++){
+        let item = arr[i];
+        if (item > num) {
+            console.log(item);
+        }
+    }
+}
+biggerThanNum([-10, -5, 0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60], 20);
