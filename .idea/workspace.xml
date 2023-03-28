@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33017c94-1ba6-40de-8f54-bf9b34788ef3" name="Changes" comment="arrayss">
-      <change afterPath="$PROJECT_DIR$/arraynote2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/arrays2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arrays1.js" beforeDir="false" afterPath="$PROJECT_DIR$/arrays1.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +67,7 @@
       <workItem from="1679343918177" duration="2848000" />
       <workItem from="1679689282099" duration="3429000" />
       <workItem from="1679948798425" duration="2726000" />
+      <workItem from="1680034854792" duration="2455000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1678827576295</created>
@@ -104,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679692684212</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="arrayss">
+      <created>1680034920577</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1680034920577</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
